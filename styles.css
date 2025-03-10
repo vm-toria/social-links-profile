@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+.first-screen {
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.first-screen .profile-container {
+  border-radius: 12px;
+  background: #1F1F1F;
+  height: 611px;
+  width: 384px;
+  padding: 40px 40px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-screen .profile-container__image-container {
+  height: 88px;
+  width: 88px;
+}
+.first-screen .profile-container__image {
+  border-radius: 50%;
+  height: 100%;
+}
+.first-screen .profile-container__description-title {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.first-screen .profile-container__description-subtitle {
+  color: #C4F82A;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.first-screen .profile-container__paragraph {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-bottom: 24px;
+}
+.first-screen .profile-container__buttons-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+.first-screen .profile-container__buttons-github, .first-screen .profile-container__buttons-frontend-mentor, .first-screen .profile-container__buttons-linkedin, .first-screen .profile-container__buttons-twitter, .first-screen .profile-container__buttons-instagram {
+  border-radius: 8px;
+  background-color: #333;
+  font: inherit;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.first-screen .profile-container__buttons-github:hover, .first-screen .profile-container__buttons-frontend-mentor:hover, .first-screen .profile-container__buttons-linkedin:hover, .first-screen .profile-container__buttons-twitter:hover, .first-screen .profile-container__buttons-instagram:hover {
+  border-radius: 8px;
+  background: #C4F82A;
+  color: #333;
+}/*# sourceMappingURL=styles.css.map */

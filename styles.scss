@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    border: none;
+}
+
+.first-screen {
+    background: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+
+    .profile-container {
+        border-radius: 12px;
+        background: #1F1F1F;
+        height: 611px;
+        width: 384px;
+        padding: 40px 40px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__image-container {
+            height: 88px;
+            width: 88px;
+        }
+
+        &__image {
+            border-radius: 50%;
+            height: 100%;
+        }
+
+        &__description {
+            &-title {
+                color: #FFF;
+                text-align: center;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+            }
+
+            &-subtitle {
+                color: #C4F82A;
+                text-align: center;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+
+        &__paragraph {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            padding-bottom: 24px;
+        }
+
+        &__buttons-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 16px;
+        }
+
+        &__buttons-github,
+        &__buttons-frontend-mentor,
+        &__buttons-linkedin,
+        &__buttons-twitter,
+        &__buttons-instagram {
+            border-radius: 8px;
+            background-color: #333;
+            font: inherit;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%;
+            width: 100%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            &:hover {
+                border-radius: 8px;
+                background: #C4F82A;
+                color: #333;
+            }
+        }
+    }
+}
